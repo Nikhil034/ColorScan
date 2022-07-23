@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+   background: url("../back.jpg");
+   min-height: 100vh;
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.game-board{
+    background: linear-gradient(#66ff99,#ffff00);
+    width: 90vmin;
+    height: 90vmin;
+    border: solid orange;
+    display: flex;
+}
+.none{
+    display: none;
+}
+.box-display{
+    height: 40px;
+    width: 120px;
+    margin-right: auto;
+    border: solid yellow;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: relative;    
+    opacity: 1px;
+}
+#boxcall2{
+    margin-left: 30px;
+    margin-top: 190px;
+    
+}
+#boxcall3{
+    margin-left: 0px;
+    margin-top: 390px;
+    
+}
+#boxcall4{
+    margin-top: 280px;
+    margin-left: 150px;
+   
+}
+#boxcall5{
+    margin-top: 100px;
+    margin-left: 10px;
+   
+}
+#boxcall6{
+    margin-top: 500px;
+    margin-left: 5px;
+    
+}
+.score-card{
+    margin-right:20px;
+    border: solid black; 
+    width: 220px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+}
+.show-msg{
+    justify-content: center;
+    margin-left: 50px;
+    height: 150px;
+    border: solid darkred;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+}
